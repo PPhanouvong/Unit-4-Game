@@ -1,0 +1,28 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    font-size: 24px;
+    line-height: 32px;
+    background: url("../images/Background.jpg");
+    background-size: 100%;
+}
+
+#intro {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+}
+
+.GemR,
+.GemB,
+.GemY,
+.GemG {
+    line-height: 10px;
+    float: left;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/images/">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="intro">
+
+            <br>
+            <p> A random number will be shown at the start of the game.
+                <br> When you click on a crystal, it will add a specific amount of points to your total score.
+                <br> You win if the total score matches the random number.
+                <br> You lose if the score goes above the random number. </p>
+        </div>
+        <div class="displayNumber">0
+
+        </div>
+
+        <div class="win">
+            Wins:
+            <div id="wins">0</div>
+        </div>
+
+        <div class="loss">
+            Losses:
+            <div id="losses">0</div>
+        </div>
+
+        <div id="buttons">
+
+            <div type="button" class="GemR button1 box" value="1">
+                <img src="assets/images/GemR.ico">
+            </div>
+
+            <div type="button" class="GemB button1 box" value="2">
+                <img src="assets/images/GemB.ico">
+            </div>
+
+            <div type="button" class="GemG button3 box" value="3">
+                <img src="assets/images/GemG.ico">
+            </div>
+
+            <div type="button" class="GemY button4 box" value="4">
+                <img src="assets/images/GemY.ico">
+            </div>
+            <div id="score">
+                <p>Total: </p>
+            </div>
+
+            <div class="displayScore">
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
