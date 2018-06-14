@@ -26,3 +26,9 @@ body {
     line-height: 10px;
     float: left;
 }
+
+#name {
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 24px;
+}
